@@ -5,13 +5,13 @@
          body {
 		 background-color: FFF5EE;
 		 }
-         table {
+         .table {
 		   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 		   border-collapse: collapse;
 		   width: 100%;
 		 }
-		 tr {
-			font-size: 13px;
+		 .table tr {
+			font-size: 16px;
 			font-weight: normal;
 			background: #C8EAFF;
 			border: 2px solid #1C1C1C;
@@ -19,24 +19,32 @@
 			padding: 8px;
 			height: 50px;
 		 }
-		td {
+		.table td {
+			font-size: 14px;
+			font-weight: bold;
 			background: #e8edff;
 			border: 2px solid #1C1C1C;
 			color: #669;
 			padding: 8px;
 		 }
-		 tr:hover td {background: #ccddff;}
-		 #number {
+		 	
+			.table tr:hover td {
+					background: #9cb1ff;
+					color: black;
+			}
+			
+			 #number {
 			background-color: #9CD9FF;
 			color: #343434;
 			text-align: center;
 			font-weight: bold;
 			border-color: #9CD9FF;
 			padding-left:15px;
+			}
 	</style>
    </head>
    <body>
-		<table>  
+		<table class="table">  
 			<caption>My favorite movies</caption>
 			<tr>
 				<th>Film</th>
@@ -46,67 +54,67 @@
 				<th>Rate this movie</th>
 			</tr>
 			<tr>
-				<th>Fight Club</th>
-				<th>1999</th>
-				<th>David Fincher</th>
-				<th>Drama, Comedy</th>
-				<th >
+				<td>Fight Club</td>
+				<td>1999</td>
+				<td>David Fincher</td>
+				<td>Drama, Comedy</td>
+				<td >
 					<input type="number" id="number" min="0" max="10"/>
-				</th>
+				</td>
 			</tr>
 			<tr>
-				<th>Whiplash</th>
-				<th>2013</th>
-				<th>Damien Chazelle</th>
-				<th>Genre</th>
-				<th>
+				<td>Whiplash</td>
+				<td>2013</td>
+				<td>Damien Chazelle</td>
+				<td>Drama, Music</td>
+				<td>
 					<input type="number" id="number" min="0" max="10" />
-				</th>
+				</td>
 			</tr>
 			<tr>
-				<th>The Lives of Others</th>
-				<th>2006</th>
-				<th>Florian Graf Henckel von Donnersmarck</th>
-				<th>Drama</th>
-				<th>
+				<td>The Lives of Others</td>
+				<td>2006</td>
+				<td>Florian Graf Henckel von Donnersmarck</td>
+				<td>Drama</td>
+				<td>
 					<input type="number" id="number" min="0" max="10" />
-				</th>
+				</td>
 			</tr>
 			<tr>
-				<th>The Dark Knight</th>
-				<th>2008</th>
-				<th>Christopher Nolan</th>
-				<th>Action, Adventure, Drama</th>
-				<th>
+				<td>The Dark Knight</td>
+				<td>2008</td>
+				<td>Christopher Nolan</td>
+				<td>Action, Adventure, Drama</td>
+				<td>
 					<input type="number" id="number" min="0" max="10" />
-				</th>
+				</td>
 			</tr>
 			<tr>
-				<th>Forrest Gump</th>
-				<th>1994</th>
-				<th>Robert Zemeckis</th>
-				<th>Drama, Romance</th>
-				<th>
+				<td>Forrest Gump</td>
+				<td>1994</td>
+				<td>Robert Zemeckis</td>
+				<td>Drama, Romance</td>
+				<td>
 					<input type="number" id="number" min="0" max="10" />
-				</th>
+				</td>
 			</tr>
 			<tr>
-				<th>Watchmen</th>
-				<th>2009</th>
-				<th>Director</th>
-				<th>Genres</th>
-				<th>
+				<td>Se7en</td>
+				<td>1995</td>
+				<td>David Fincher</td>
+				<td>Crime, Drama, Mystery</td>
+				<td>
 					<input type="number" id="number" min="0" max="10" />
-				</th>
+				</td>
 			</tr>
 			<tr>
-				<th>Lock, Stock and Two Smoking Barrels</th>
-				<th>1998</th>
-				<th>Zack Snyder</th>
-				<th>Genres</th>
-				<th>
-					<input type="number" id="number" min="0" max="10" />
-				</th>
+				<td>Us</td>
+				<td>2019</td>
+				<td>Jordan Peele</td>
+				<td>Horror, Mystery, Thriller</td>
+				<td>
+            <input type="number" id="number" min="0" max="10" />
+				</td>
 			</tr>
 			
 			
