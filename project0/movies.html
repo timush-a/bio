@@ -1,157 +1,155 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <style>
-         body {
-		 background-color: FFF5EE;
-		 }
-		 
-		#navigation, #navigation li {
-				margin: 3px;
-				padding: 8px;
-		 }
-		#navigation {
-				 position: fixed;
-				 top: 0;
-				 left: 0;
-				 width: 100%;
-				 text-align: center; /* пункты и текст горизонтально по центру */
-				 background: rgb(46,95,122);
-		 }
-		#navigation li {
-			display: inline-block;
-		 }
-		#navigation a {
-			 display: block;
-			 text-decoration: none;
-			 padding: 4px 100px;
-			 color: #fff;
-		 }
-		 #navigation a:hover {
-				background: rgb(96,145,172);
-				color: black;
-		 }
-         .table {
-			margin-top: 80px;
-		   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-		   border-collapse: collapse;
-		   width: 100%;
-		 }
-		 .table tr {
-			font-size: 16px;
-			font-weight: normal;
-			background: #C8EAFF;
-			border: 2px solid #1C1C1C;
-			color: #343434;
-			padding: 8px;
-			height: 50px;
-		 }
-		.table td {
-			text-align: center;
-			font-size: 14px;
-			font-weight: bold;
-			background: #e8edff;
-			border: 2px solid #1C1C1C;
-			color: #669;
-			padding: 8px;
-		 }
-		 	
-			.table tr:hover td {
-					background: #9cb1ff;
-					color: black;
-			}
-			
-			 #number {
-			background-color: #9CD9FF;
-			color: #343434;
-			text-align: center;
-			font-weight: bold;
-			border-color: #9CD9FF;
-			padding-left:15px;
-			}
-	</style>
-   </head>
-   <body>
-		<ul id="navigation">
-			<li><a href="#1">Music</a>
-			<li><a href="#2">Movies</a>
-			<li><a href="#3">Contacts</a>
-			<li><a href="#4">About</a>
-		</ul>
-		<table class="table">  
-			<caption style="font-size: 18px; margin-bottom: 10px; font-weight:bold">My favorite movies</caption>
-			<tr>
-				<th>Film</th>
-				<th>Year</th>
-				<th>Director</th>
-				<th>Genre</th>
-				<th>Rate this movie</th>
-			</tr>
-			<tr>
-				<td>Fight Club</td>
-				<td>1999</td>
-				<td>David Fincher</td>
-				<td>Drama, Comedy</td>
-				<td >
-					<input type="number" id="number" min="0" max="10"/>
-				</td>
-			</tr>
-			<tr>
-				<td>Whiplash</td>
-				<td>2013</td>
-				<td>Damien Chazelle</td>
-				<td>Drama, Music</td>
-				<td>
-					<input type="number" id="number" min="0" max="10" />
-				</td>
-			</tr>
-			<tr>
-				<td>The Lives of Others</td>
-				<td>2006</td>
-				<td>Florian Graf Henckel von Donnersmarck</td>
-				<td>Drama</td>
-				<td>
-					<input type="number" id="number" min="0" max="10" />
-				</td>
-			</tr>
-			<tr>
-				<td>The Dark Knight</td>
-				<td>2008</td>
-				<td>Christopher Nolan</td>
-				<td>Action, Adventure, Drama</td>
-				<td>
-					<input type="number" id="number" min="0" max="10" />
-				</td>
-			</tr>
-			<tr>
-				<td>Forrest Gump</td>
-				<td>1994</td>
-				<td>Robert Zemeckis</td>
-				<td>Drama, Romance</td>
-				<td>
-					<input type="number" id="number" min="0" max="10" />
-				</td>
-			</tr>
-			<tr>
-				<td>Se7en</td>
-				<td>1995</td>
-				<td>David Fincher</td>
-				<td>Crime, Drama, Mystery</td>
-				<td>
-					<input type="number" id="number" min="0" max="10" />
-				</td>
-			</tr>
-			<tr>
-				<td>Us</td>
-				<td>2019</td>
-				<td>Jordan Peele</td>
-				<td>Horror, Mystery, Thriller</td>
-				<td>
-            <input type="number" id="number" min="0" max="10" />
-				</td>
-			</tr>
-			
-			
-		</table>
-     </body>
+    <head>
+        <title>Movies</title>
+        <style> 
+            body {
+            background-color: FFF5EE;
+            }
+            #navigation, #navigation li {
+            margin: 3px;
+            padding: 8px;
+            }
+            #navigation {
+            position: static;
+            position: sticky;
+            width: 100%;
+            top: 0;
+            left: 0;
+            text-align: center; /* пункты и текст горизонтально по центру */
+            background: rgb(46,95,122);
+            }
+            #navigation li {
+            display: inline-block;
+            }
+            #navigation a {
+            display: block;
+            text-decoration: none;
+            padding: 4px 100px;
+            color: #fff;
+            }
+            #navigation a:hover {
+            background: rgb(96,145,172);
+            border-radius: 10px;
+            color: black;
+            }
+            .table {
+            margin-top: 80px;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+            border-collapse: collapse;
+            width: 100%;
+            }
+            .table tr {
+            font-size: 16px;
+            font-weight: normal;
+            background: #C8EAFF;
+            border: 2px solid #1C1C1C;
+            color: #343434;
+            padding: 8px;
+            height: 50px;
+            }
+            .table td {
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            background: #e8edff;
+            border: 2px solid #1C1C1C;
+            color: #669;
+            padding: 8px;
+            }
+            .table tr:hover td {
+            background: #9cb1ff;
+            color: black;
+            }
+            #number {
+            background-color: #9CD9FF;
+            color: #343434;
+            text-align: center;
+            font-weight: bold;
+            border-color: #9CD9FF;
+            padding-left:15px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul id="navigation">
+            <li><a href="https://timush-a.github.io/cs50/project0/music.html">Music</a>
+            <li><a href="https://timush-a.github.io/cs50/project0/movies.html">Movies</a>
+            <li><a href="https://timush-a.github.io/cs50/project0/contacts.html">Contacts</a>
+            <li><a href="https://timush-a.github.io/cs50/project0/about.html">About</a>
+        </ul>
+        <table class="table">
+            <caption style="font-size: 18px; margin-bottom: 10px; font-weight:bold">My favorite movies</caption>
+            <tr>
+                <th>Film</th>
+                <th>Year</th>
+                <th>Director</th>
+                <th>Genres</th>
+                <th>Rate this movie</th>
+            </tr>
+            <tr>
+                <td>Fight Club</td>
+                <td>1999</td>
+                <td>David Fincher</td>
+                <td>Drama, Comedy</td>
+                <td >
+                    <input type="number" id="number" min="0" max="10"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Whiplash</td>
+                <td>2013</td>
+                <td>Damien Chazelle</td>
+                <td>Drama, Music</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>The Lives of Others</td>
+                <td>2006</td>
+                <td>Florian Graf Henckel von Donnersmarck</td>
+                <td>Drama</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>The Dark Knight</td>
+                <td>2008</td>
+                <td>Christopher Nolan</td>
+                <td>Action, Adventure, Drama</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>Forrest Gump</td>
+                <td>1994</td>
+                <td>Robert Zemeckis</td>
+                <td>Drama, Romance</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>Se7en</td>
+                <td>1995</td>
+                <td>David Fincher</td>
+                <td>Crime, Drama, Mystery</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>Us</td>
+                <td>2019</td>
+                <td>Jordan Peele</td>
+                <td>Horror, Mystery, Thriller</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+        </table>
+    </body>
 </html>
