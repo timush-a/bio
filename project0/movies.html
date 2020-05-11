@@ -2,34 +2,34 @@
 <html>
     <head>
         <title>Movies</title>
-        <style> 
+        <style>
             body {
             background-color: FFF5EE;
             }
-            #navigation, #navigation li {
+            .nav, .nav ul .nav li {
             margin: 3px;
             padding: 8px;
             }
-            #navigation {
+            .nav {
             position: static;
             position: sticky;
             width: 100%;
             top: 0;
             left: 0;
             text-align: center; /* пункты и текст горизонтально по центру */
-            background: rgb(46,95,122);
+            background: #5CA9D4;
             }
-            #navigation li {
+            .nav li {
             display: inline-block;
             }
-            #navigation a {
+            .nav a {
             display: block;
             text-decoration: none;
-            padding: 4px 100px;
-            color: #fff;
+            padding: 40px 80px;
+            color: black;
             }
-            #navigation a:hover {
-            background: rgb(96,145,172);
+            .nav a:hover {
+            background: #C8EAFF;
             border-radius: 10px;
             color: black;
             }
@@ -61,6 +61,7 @@
             background: #9cb1ff;
             color: black;
             }
+
             #number {
             background-color: #9CD9FF;
             color: #343434;
@@ -72,11 +73,14 @@
         </style>
     </head>
     <body>
-        <ul id="navigation">
+        <ul class="nav">
             <li><a href="https://timush-a.github.io/cs50/project0/music.html">Music</a>
             <li><a href="https://timush-a.github.io/cs50/project0/movies.html">Movies</a>
+            <li><a href="https://timush-a.github.io/cs50/project0/interests.html">Interests</a>
             <li><a href="https://timush-a.github.io/cs50/project0/contacts.html">Contacts</a>
             <li><a href="https://timush-a.github.io/cs50/project0/about.html">About</a>
+
+
         </ul>
         <table class="table">
             <caption style="font-size: 18px; margin-bottom: 10px; font-weight:bold">My favorite movies</caption>
