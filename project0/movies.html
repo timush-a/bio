@@ -2,178 +2,210 @@
 <html>
     <head>
         <title>Movies</title>
-        <style>
-            body {
-            background-color: FFF5EE;
-            }
-            .nav, .nav ul .nav li {
-            margin-left: 1%;
-			margin-right: 1%;
-            padding-left: 3%;
-			padding right: 3%;
-			padding-top: 1%;
-			padding-bottom: 1%;
-            }
-            .nav {
-			display: flex;
-			align-items: center;
-			justify-content: space-around;
-			position: static;
-            position: sticky;
-			text-align: center; /* пункты и текст горизонтально по центру */
-            background: #5CA9D4;
-			border-radius: 10px;
-            }
-            .nav li {
-            display: flex;
-            }
-            .nav a {
-			display: flex;
-            text-decoration: none;
-            padding: 10px 50px 10px 50px;
-            color: black;
-            }
-            .nav a:hover {
-            background: #C8EAFF;
-			border-radius: 10px;
-			           
-            }
-            .table {
-            margin-top: 30px;
-            font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-            border-collapse: collapse;
-            width: 100%;
-            }
-            .table tr {
-            font-size: 16px;
-            font-weight: normal;
-            background: #C8EAFF;
-            border: 2px solid #1C1C1C;
-            color: #343434;
-            padding: 8px;
-            height: 50px;
-            }
-            .table td {
-            text-align: center;
-            font-size: 14px;
-            font-weight: bold;
-            background: #e8edff;
-            border: 2px solid #1C1C1C;
-            color: #669;
-            padding: 8px;
-            }
-            .table tr:hover td {
-            background: #9cb1ff;
-            color: black;
-            }
+            <style>
 
-            #number {
-            background-color: #9CD9FF;
-            color: #343434;
-            text-align: center;
-            font-weight: bold;
-            border-color: #9CD9FF;
-            padding-left:15px;
-            }
-        </style>
-    </head>
-    <body>
-        <ul class="nav">
-			<li>
-				<div>
-					<img src="https://downloader.disk.yandex.ru/preview/7aa826a0fb68146fd52de2ac729a71493a4ffe1564f4b183cffec0567377fdd9/5ebaeb27/d072RkuhuUd3DlhATPFRsb6_2O9Mwp0SwiB98eqK1yFnGGlMI10HGKk_sOq2EH774wt3IQpg_So634BRQ6NI4w==?uid=0&filename=daft_punk.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&owner_uid=684725154&size=2048x2048" width="65" height="65" alt="ALt" />
-				</div>
-            <li><a href="https://timush-a.github.io/cs50/project0/music.html">Music</a>
-            <li><a href="https://timush-a.github.io/cs50/project0/movies.html">Movies</a>
-            <li><a href="https://timush-a.github.io/cs50/project0/interests.html">Interests</a>
-            <li><a href="https://timush-a.github.io/cs50/project0/contacts.html">Contacts</a>
-            <li><a href="https://timush-a.github.io/cs50/project0/about.html">About</a>
+                body {
+                    max-width: 1140px;
+                    background-color: #0A0A0A;
+                    margin:0 auto;
+                }
+
+                .nav .nav ul .nav li {
+                    padding: 5px;
+                }
+
+                .nav {
+                    width:auto;
+                    padding: 0px;
+                    margin: 3px 0px 0px 0px;
+                    display: flex;
+                    flex-wrap: wrap;
+        			align-items: center;
+        			justify-content: space-around;
+        			position: static;
+                    position: sticky;
+        			text-align: center; /* пункты и текст горизонтально по центру */
+                    background: #191919;
+        			border-radius: 10px;
+                    border-style: solid;
+                    border-color: #42C2FF;
+                }
+
+                .nav li {
+                    display: flex;
+                    padding-top: 1px;
+                    padding-bottom: 1px;
+                }
+
+                .nav a {
+        			display: flex;
+                    text-decoration: none;
+                    padding: 20px 50px 20px 50px;
+                    color: #FFFFFF;
+                    opacity: 90%;
+                    font-size: 20px;
+                }
+
+                .nav a:hover {
+                    background: #42C2FF;
+                    color: black;
+        			border-radius: 10px;
+                }
+
+                .table {
+                    margin-top: 30px;
+                    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                .table tr {
+                    font-size: 16px;
+                    font-weight: normal;
+                    background: #C8EAFF;
+                    border: 2px solid #1C1C1C;
+                    color: #343434;
+                    padding: 8px;
+                    height: 50px;
+                }
+
+                .table td {
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: bold;
+                    background: #e8edff;
+                    border: 2px solid #1C1C1C;
+                    color: #669;
+                    padding: 8px;
+                }
+
+                .table tr:hover td {
+                background: #9cb1ff;
+                color: black;
+                opacity: 40%;
+                }
+
+                #number {
+                background-color: #9CD9FF;
+                color: #343434;
+                text-align: center;
+                font-weight: bold;
+                border-color: #9CD9FF;
+                padding-left:15px;
+                }
+
+                .logo {
+                    border-radius: 35px;
+                    width: 65px;
+                    height: 65px;
+                }
+                .table-caption {
+                    font-size: 25px
+                    margin-bottom: 20px
+                    margin-top: 5px
+                    font-weight: bold
+                    color: #FFFFFF
+                    opacity: 90%;
+
+                }
+            </style>
+        </head>
+        <body>
+            <ul class="nav">
+    			<li>
+    				<img class="logo" src="logo.png"alt="Alt" />
+                </li>
+                <li><a href="https://timush-a.github.io/cs50/project0/music.html">Music</a>
+                <li><a href="https://timush-a.github.io/cs50/project0/movies.html">Movies</a>
+                <li><a href="https://timush-a.github.io/cs50/project0/interests.html">Interests</a>
+                <li><a href="https://timush-a.github.io/cs50/project0/contacts.html">Contacts</a>
+                <li><a href="https://timush-a.github.io/cs50/project0/about.html">About</a>
 
 
-        </ul>
-        <table class="table">
-            <caption style="font-size: 18px; margin-bottom: 10px; font-weight:bold">My favorite movies</caption>
-            <tr>
-                <th>Film</th>
-                <th>Year</th>
-                <th>Director</th>
-                <th>Genres</th>
-                <th>Rate this movie</th>
-            </tr>
-            <tr>
-                <td>Fight Club</td>
-                <td>1999</td>
-                <td>David Fincher</td>
-                <td>Drama, Comedy</td>
-                <td >
-                    <input type="number" id="number" min="0" max="10"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Whiplash</td>
-                <td>2013</td>
-                <td>Damien Chazelle</td>
-                <td>Drama, Music</td>
-                <td>
-                    <input type="number" id="number" min="0" max="10" />
-                </td>
-            </tr>
-            <tr>
-                <td>The Lives of Others</td>
-                <td>2006</td>
-                <td>Florian Graf Henckel von Donnersmarck</td>
-                <td>Drama</td>
-                <td>
-                    <input type="number" id="number" min="0" max="10" />
-                </td>
-            </tr>
-            <tr>
-                <td>The Dark Knight</td>
-                <td>2008</td>
-                <td>Christopher Nolan</td>
-                <td>Action, Adventure, Drama</td>
-                <td>
-                    <input type="number" id="number" min="0" max="10" />
-                </td>
-            </tr>
-            <tr>
-                <td>Forrest Gump</td>
-                <td>1994</td>
-                <td>Robert Zemeckis</td>
-                <td>Drama, Romance</td>
-                <td>
-                    <input type="number" id="number" min="0" max="10" />
-                </td>
-            </tr>
-            <tr>
-                <td>Se7en</td>
-                <td>1995</td>
-                <td>David Fincher</td>
-                <td>Crime, Drama, Mystery</td>
-                <td>
-                    <input type="number" id="number" min="0" max="10" />
-                </td>
-            </tr>
-            <tr>
-                <td>Us</td>
-                <td>2019</td>
-                <td>Jordan Peele</td>
-                <td>Horror, Mystery, Thriller</td>
-                <td>
-                    <input type="number" id="number" min="0" max="10" />
-                </td>
-            </tr>
-        </table>
-		<h1>h1 paragraph</h1>
-		<h2>h2 paragraph</h2>
-		<h1>h1 paragraph</h1>
-		<h2>h2 paragraph</h2>
-		<h1>h1 paragraph</h1>
-		<h2>h2 paragraph</h2>
-		<h1>h1 paragraph</h1>
-		<h2>h2 paragraph</h2>
-		<h1>h1 paragraph</h1>
-		<h2>h2 paragraph</h2>
-		<p>ppppp</p>
+            </ul>
+            <table class="table">
+                <caption class="table-caption">My favorite movies</caption>
+                <tr>
+                    <th>Film</th>
+                    <th>Year</th>
+                    <th>Director</th>
+                    <th>Genres</th>
+                    <th>Rate this movie</th>
+                </tr>
+                <tr>
+                    <td>Fight Club</td>
+                    <td>1999</td>
+                    <td>David Fincher</td>
+                    <td>Drama, Comedy</td>
+                    <td >
+                        <input type="number" id="number" min="0" max="10"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Whiplash</td>
+                    <td>2013</td>
+                    <td>Damien Chazelle</td>
+                    <td>Drama, Music</td>
+                    <td>
+                        <input type="number" id="number" min="0" max="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>The Lives of Others</td>
+                    <td>2006</td>
+                    <td>Florian Graf Henckel von Donnersmarck</td>
+                    <td>Drama</td>
+                    <td>
+                        <input type="number" id="number" min="0" max="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>The Dark Knight</td>
+                    <td>2008</td>
+                    <td>Christopher Nolan</td>
+                    <td>Action, Adventure, Drama</td>
+                    <td>
+                        <input type="number" id="number" min="0" max="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Forrest Gump</td>
+                    <td>1994</td>
+                    <td>Robert Zemeckis</td>
+                    <td>Drama, Romance</td>
+                    <td>
+                        <input type="number" id="number" min="0" max="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Se7en</td>
+                    <td>1995</td>
+                    <td>David Fincher</td>
+                    <td>Crime, Drama, Mystery</td>
+                    <td>
+                        <input type="number" id="number" min="0" max="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Us</td>
+                    <td>2019</td>
+                    <td>Jordan Peele</td>
+                    <td>Horror, Mystery, Thriller</td>
+                    <td>
+                        <input type="number" id="number" min="0" max="10" />
+                    </td>
+                </tr>
+            </table>
+    		<h1>h1 paragraph</h1>
+    		<h2>h2 paragraph</h2>
+    		<h1>h1 paragraph</h1>
+    		<h2>h2 paragraph</h2>
+    		<h1>h1 paragraph</h1>
+    		<h2>h2 paragraph</h2>
+    		<h1>h1 paragraph</h1>
+    		<h2>h2 paragraph</h2>
+    		<h1>h1 paragraph</h1>
+    		<h2>h2 paragraph</h2>
+    		<p>ppppp</p>
     </body>
 </html>
