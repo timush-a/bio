@@ -5,7 +5,7 @@
             <style>
 
                 body {
-                    max-width: 1140px;
+                    max-width: 1140px; 
                     background-color: #0A0A0A;
                     margin:0 auto;
                 }
@@ -22,13 +22,11 @@
                     flex-wrap: wrap;
         			align-items: center;
         			justify-content: space-around;
-        			position: static;
-                    position: sticky;
-        			text-align: center; /* пункты и текст горизонтально по центру */
+        			text-align: center; 
                     background: #191919;
         			border-radius: 10px;
                     border-style: solid;
-                    border-color: #42C2FF;
+                    border-color: #42C2FF; /*#9CD9FF*/
                 }
 
                 .nav li {
@@ -62,9 +60,9 @@
                 .table tr {
                     font-size: 16px;
                     font-weight: normal;
-                    background: #C8EAFF;
+                    background: #525252; /*#C8EAFF;*/
                     border: 2px solid #1C1C1C;
-                    color: #343434;
+                    color: #FFFFFF;
                     padding: 8px;
                     height: 50px;
                 }
@@ -73,20 +71,21 @@
                     text-align: center;
                     font-size: 14px;
                     font-weight: bold;
-                    background: #e8edff;
+                    background: #6b6b6b; /*#e8edff;*/
                     border: 2px solid #1C1C1C;
-                    color: #669;
+                    color: #FFFFFF;
                     padding: 8px;
                 }
 
                 .table tr:hover td {
-                background: #9cb1ff;
-                color: black;
-                opacity: 40%;
+                background: #c9c9c9;
+                color: #3c5bba;
                 }
 
                 #number {
-                background-color: #9CD9FF;
+				width: auto;
+				height: 20px;
+				background-color: #9CD9FF;
                 color: #343434;
                 text-align: center;
                 font-weight: bold;
@@ -94,20 +93,45 @@
                 padding-left:15px;
                 }
 
-                .logo {
+                .table-caption {
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                    margin-top: 5px;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                    opacity: 90%;
+				}
+				
+				.logo {
                     border-radius: 35px;
                     width: 65px;
                     height: 65px;
                 }
-                .table-caption {
-                    font-size: 25px
-                    margin-bottom: 20px
-                    margin-top: 5px
-                    font-weight: bold
-                    color: #FFFFFF
+				
+				.summary {
+					font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+					font-size: 20px;
+                    margin-bottom: 20px;
+                    margin-top: 5px;
+                    font-weight: bold;
+                    color: #FFFFFF;
                     opacity: 90%;
-
-                }
+				}
+				
+				.summary .summary-title, .summary .movie-title {
+					text-align:center;
+					}
+					
+				.summary .movie-title:hover {
+					color: #3c5bba;
+					cursor: pointer;
+				}
+				
+				.summary .movie-summary:hover {
+					color: #3c5bba;
+					cursor: pointer;
+				}
+				
             </style>
         </head>
         <body>
@@ -126,7 +150,7 @@
             <table class="table">
                 <caption class="table-caption">My favorite movies</caption>
                 <tr>
-                    <th>Film</th>
+                    <th>Movie title</th>
                     <th>Year</th>
                     <th>Director</th>
                     <th>Genres</th>
@@ -196,16 +220,35 @@
                     </td>
                 </tr>
             </table>
-    		<h1>h1 paragraph</h1>
-    		<h2>h2 paragraph</h2>
-    		<h1>h1 paragraph</h1>
-    		<h2>h2 paragraph</h2>
-    		<h1>h1 paragraph</h1>
-    		<h2>h2 paragraph</h2>
-    		<h1>h1 paragraph</h1>
-    		<h2>h2 paragraph</h2>
-    		<h1>h1 paragraph</h1>
-    		<h2>h2 paragraph</h2>
-    		<p>ppppp</p>
+    		<div class="summary">
+				<div class="summary-title">
+					<h1>Short summary</h1>
+				</div>
+				<p class="movie-title">Fight Club</p>
+				<p class="movie-summary">An insomniac office worker and a devil-may-care soapmaker
+				form an underground fight club that evolves into something much, much more.</p>
+				<p class="movie-title">Whiplash</p>
+				<p class="movie-summary">A promising young drummer enrolls at a cut-throat music
+				conservatory where his dreams of greatness are mentored by an instructor who will
+				stop at nothing to realize a student's potential.</p>
+				<p class="movie-title">The Lives of Others</p>
+				<p class="movie-summary">In 1984 East Berlin, an agent of the secret police, conducting
+				surveillance on a writer and his lover, finds himself becoming increasingly absorbed by
+				their lives.</p>
+				<p class="movie-title">The Dark Knight</p>
+				<p class="movie-summary">When the menace known as the Joker wreaks havoc and chaos on 
+				the people of Gotham, Batman must accept one of the greatest psychological and physical
+				tests of his ability to fight injustice.</p>
+				<p class="movie-title">Forrest Gump</p>
+				<p class="movie-summary">The presidencies of Kennedy and Johnson, the events of Vietnam,
+				Watergate and other historical events unfold through the perspective of an Alabama man 
+				with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.</p>
+				<p class="movie-title">Se7en</p>
+				<p class="movie-summary">Two detectives, a rookie and a veteran, hunt a serial killer who 
+				uses the seven deadly sins as his motives.</p>
+				<p class="movie-title">Us</p>
+				<p class="movie-summary">A family's serene beach vacation turns to chaos when their
+				doppelgängers appear and begin to terrorize them.</p>
+				
     </body>
 </html>
