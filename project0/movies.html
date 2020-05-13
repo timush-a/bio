@@ -14,10 +14,13 @@
                     .table, .logo, .summary-title {
                         display: none;
                     }
-                    #inivisible-paragpaph::before {
-                        content: "My favourite movies";
 
+                    #inivisible-paragpaph {
+                        display: inline-block;
+                        text-size: 20px;
+                        text-align: center;
                     }
+
                     .movie-title {
                         font-size: 25px;
                     }
@@ -111,9 +114,11 @@
             </table>
     		<div class="summary">
 				<div class="summary-title">
-                    <p id="inivisible-paragpaph"></p>
                     <h2>Short summary</h2>
-				</div>
+                </div>
+                <div id="inivisible-paragpaph">
+                    <p>My favourite movies</p>
+                </div>
 				<p class="movie-title">Fight Club</p>
 				<p class="movie-summary">An insomniac office worker and a devil-may-care soapmaker
 				form an underground fight club that evolves into something much, much more.</p>
