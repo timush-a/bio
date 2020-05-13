@@ -2,13 +2,28 @@
 <html>
     <head>
 		<link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Movies</title>
             <style>
 				body {
                     max-width: 1140px;
 					background-color: #0A0A0A;
                     margin:0 auto;
-                }       
+                }
+                @media (max-width: 448px) {
+                    .table, .logo, .summary-title {
+                        display: none;
+                    }
+                    #inivisible-paragpaph::before {
+                        content: "My favourite movies";
+
+                    }
+                    .movie-title {
+                        font-size: 25px;
+                    }
+
+
+                }
             </style>
 	</head>
         <body>
@@ -96,7 +111,8 @@
             </table>
     		<div class="summary">
 				<div class="summary-title">
-					<h1>Short summary</h1>
+                    <p id="inivisible-paragpaph"></p>
+                    <h2>Short summary</h2>
 				</div>
 				<p class="movie-title">Fight Club</p>
 				<p class="movie-summary">An insomniac office worker and a devil-may-care soapmaker
@@ -110,19 +126,19 @@
 				surveillance on a writer and his lover, finds himself becoming increasingly absorbed by
 				their lives.</p>
 				<p class="movie-title">The Dark Knight</p>
-				<p class="movie-summary">When the menace known as the Joker wreaks havoc and chaos on 
+				<p class="movie-summary">When the menace known as the Joker wreaks havoc and chaos on
 				the people of Gotham, Batman must accept one of the greatest psychological and physical
 				tests of his ability to fight injustice.</p>
 				<p class="movie-title">Forrest Gump</p>
 				<p class="movie-summary">The presidencies of Kennedy and Johnson, the events of Vietnam,
-				Watergate and other historical events unfold through the perspective of an Alabama man 
+				Watergate and other historical events unfold through the perspective of an Alabama man
 				with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.</p>
 				<p class="movie-title">Se7en</p>
-				<p class="movie-summary">Two detectives, a rookie and a veteran, hunt a serial killer who 
+				<p class="movie-summary">Two detectives, a rookie and a veteran, hunt a serial killer who
 				uses the seven deadly sins as his motives.</p>
 				<p class="movie-title">Us</p>
 				<p class="movie-summary">A family's serene beach vacation turns to chaos when their
 				doppelgängers appear and begin to terrorize them.</p>
-				
+
     </body>
 </html>
