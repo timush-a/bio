@@ -126,3 +126,21 @@ body {
     color: #3c5bba;
     cursor: pointer;
 }
+
+@media (max-width: 448px) {
+    .table, .logo, .summary-title {
+        display: none;
+    }
+
+    #inivisible-paragpaph {
+        display: inline-block;
+        text-size: 20px;
+        text-align: center;
+    }
+
+    .movie-title {
+        font-size: 25px;
+    }
+
+
+}

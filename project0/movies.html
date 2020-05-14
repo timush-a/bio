@@ -4,146 +4,122 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Movies</title>
-            <style>
-				body {
-                    max-width: 1140px;
-					background-color: #0A0A0A;
-                    margin:0 auto;
-                }
-                @media (max-width: 448px) {
-                    .table, .logo, .summary-title {
-                        display: none;
-                    }
-
-                    #inivisible-paragpaph {
-                        display: inline-block;
-                        text-size: 20px;
-                        text-align: center;
-                    }
-
-                    .movie-title {
-                        font-size: 25px;
-                    }
-
-
-                }
-            </style>
 	</head>
-        <body>
-            <ul class="nav">
-    			<li>
-    				<img class="logo" src="logo.png"alt="Alt" />
-                </li>
-                <li><a href="https://timush-a.github.io/cs50/project0/movies.html">Movies</a>
-                <li><a href="https://timush-a.github.io/cs50/project0/music.html">Music</a>
-				<li><a href="https://timush-a.github.io/cs50/project0/contacts.html">Contacts</a>
-                <li><a href="https://timush-a.github.io/cs50/project0/about.html">About</a>
-            </ul>
-			<table class="table">
-                <caption class="table-caption">My favorite movies</caption>
-                <tr>
-                    <th>Movie title</th>
-                    <th>Year</th>
-                    <th>Director</th>
-                    <th>Genres</th>
-                    <th>Rate this movie</th>
-                </tr>
-                <tr>
-                    <td>Fight Club</td>
-                    <td>1999</td>
-                    <td>David Fincher</td>
-                    <td>Drama, Comedy</td>
-                    <td >
-                        <input type="number" id="number" min="0" max="10"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Whiplash</td>
-                    <td>2013</td>
-                    <td>Damien Chazelle</td>
-                    <td>Drama, Music</td>
-                    <td>
-                        <input type="number" id="number" min="0" max="10" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>The Lives of Others</td>
-                    <td>2006</td>
-                    <td>Florian Graf Henckel von Donnersmarck</td>
-                    <td>Drama</td>
-                    <td>
-                        <input type="number" id="number" min="0" max="10" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>The Dark Knight</td>
-                    <td>2008</td>
-                    <td>Christopher Nolan</td>
-                    <td>Action, Adventure, Drama</td>
-                    <td>
-                        <input type="number" id="number" min="0" max="10" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Forrest Gump</td>
-                    <td>1994</td>
-                    <td>Robert Zemeckis</td>
-                    <td>Drama, Romance</td>
-                    <td>
-                        <input type="number" id="number" min="0" max="10" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Se7en</td>
-                    <td>1995</td>
-                    <td>David Fincher</td>
-                    <td>Crime, Drama, Mystery</td>
-                    <td>
-                        <input type="number" id="number" min="0" max="10" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Us</td>
-                    <td>2019</td>
-                    <td>Jordan Peele</td>
-                    <td>Horror, Mystery, Thriller</td>
-                    <td>
-                        <input type="number" id="number" min="0" max="10" />
-                    </td>
-                </tr>
-            </table>
-    		<div class="summary">
-				<div class="summary-title">
-                    <h2>Short summary</h2>
-                </div>
-                <div id="inivisible-paragpaph">
-                    <p>My favourite movies</p>
-                </div>
-				<p class="movie-title">Fight Club</p>
-				<p class="movie-summary">An insomniac office worker and a devil-may-care soapmaker
-				form an underground fight club that evolves into something much, much more.</p>
-				<p class="movie-title">Whiplash</p>
-				<p class="movie-summary">A promising young drummer enrolls at a cut-throat music
-				conservatory where his dreams of greatness are mentored by an instructor who will
-				stop at nothing to realize a student's potential.</p>
-				<p class="movie-title">The Lives of Others</p>
-				<p class="movie-summary">In 1984 East Berlin, an agent of the secret police, conducting
-				surveillance on a writer and his lover, finds himself becoming increasingly absorbed by
-				their lives.</p>
-				<p class="movie-title">The Dark Knight</p>
-				<p class="movie-summary">When the menace known as the Joker wreaks havoc and chaos on
-				the people of Gotham, Batman must accept one of the greatest psychological and physical
-				tests of his ability to fight injustice.</p>
-				<p class="movie-title">Forrest Gump</p>
-				<p class="movie-summary">The presidencies of Kennedy and Johnson, the events of Vietnam,
-				Watergate and other historical events unfold through the perspective of an Alabama man
-				with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.</p>
-				<p class="movie-title">Se7en</p>
-				<p class="movie-summary">Two detectives, a rookie and a veteran, hunt a serial killer who
-				uses the seven deadly sins as his motives.</p>
-				<p class="movie-title">Us</p>
-				<p class="movie-summary">A family's serene beach vacation turns to chaos when their
-				doppelgängers appear and begin to terrorize them.</p>
+    <body>
+        <ul class="nav">
+			<li>
+				<img class="logo" src="logo.png"alt="Alt" />
+            </li>
+            <li><a href="https://timush-a.github.io/cs50/project0/movies.html">Movies</a>
+            <li><a href="https://timush-a.github.io/cs50/project0/music.html">Music</a>
+			<li><a href="https://timush-a.github.io/cs50/project0/contacts.html">Contacts</a>
+            <li><a href="https://timush-a.github.io/cs50/project0/about.html">About</a>
+        </ul>
+		<table class="table">
+            <caption class="table-caption">My favorite movies</caption>
+            <tr>
+                <th>Movie title</th>
+                <th>Year</th>
+                <th>Director</th>
+                <th>Genres</th>
+                <th>Rate this movie</th>
+            </tr>
+            <tr>
+                <td>Fight Club</td>
+                <td>1999</td>
+                <td>David Fincher</td>
+                <td>Drama, Comedy</td>
+                <td >
+                    <input type="number" id="number" min="0" max="10"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Whiplash</td>
+                <td>2013</td>
+                <td>Damien Chazelle</td>
+                <td>Drama, Music</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>The Lives of Others</td>
+                <td>2006</td>
+                <td>Florian Graf Henckel von Donnersmarck</td>
+                <td>Drama</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>The Dark Knight</td>
+                <td>2008</td>
+                <td>Christopher Nolan</td>
+                <td>Action, Adventure, Drama</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>Forrest Gump</td>
+                <td>1994</td>
+                <td>Robert Zemeckis</td>
+                <td>Drama, Romance</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>Se7en</td>
+                <td>1995</td>
+                <td>David Fincher</td>
+                <td>Crime, Drama, Mystery</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+            <tr>
+                <td>Us</td>
+                <td>2019</td>
+                <td>Jordan Peele</td>
+                <td>Horror, Mystery, Thriller</td>
+                <td>
+                    <input type="number" id="number" min="0" max="10" />
+                </td>
+            </tr>
+        </table>
+		<div class="summary">
+			<div class="summary-title">
+                <h2>Short summary</h2>
+            </div>
+            <div id="inivisible-paragpaph">
+                <p>My favourite movies</p>
+            </div>
+			<p class="movie-title">Fight Club</p>
+			<p class="movie-summary">An insomniac office worker and a devil-may-care soapmaker
+			form an underground fight club that evolves into something much, much more.</p>
+			<p class="movie-title">Whiplash</p>
+			<p class="movie-summary">A promising young drummer enrolls at a cut-throat music
+			conservatory where his dreams of greatness are mentored by an instructor who will
+			stop at nothing to realize a student's potential.</p>
+			<p class="movie-title">The Lives of Others</p>
+			<p class="movie-summary">In 1984 East Berlin, an agent of the secret police, conducting
+			surveillance on a writer and his lover, finds himself becoming increasingly absorbed by
+			their lives.</p>
+			<p class="movie-title">The Dark Knight</p>
+			<p class="movie-summary">When the menace known as the Joker wreaks havoc and chaos on
+			the people of Gotham, Batman must accept one of the greatest psychological and physical
+			tests of his ability to fight injustice.</p>
+			<p class="movie-title">Forrest Gump</p>
+			<p class="movie-summary">The presidencies of Kennedy and Johnson, the events of Vietnam,
+			Watergate and other historical events unfold through the perspective of an Alabama man
+			with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.</p>
+			<p class="movie-title">Se7en</p>
+			<p class="movie-summary">Two detectives, a rookie and a veteran, hunt a serial killer who
+			uses the seven deadly sins as his motives.</p>
+			<p class="movie-title">Us</p>
+			<p class="movie-summary">A family's serene beach vacation turns to chaos when their
+			doppelgängers appear and begin to terrorize them.</p>
 
-    </body>
+        </body>
 </html>
