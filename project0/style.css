@@ -4,47 +4,6 @@ body {
     margin:0 auto;
 }
 
-.nav .nav ul .nav li {
-    padding: 5px;
-}
-
-.nav {
-    width:auto;
-    padding: 0px;
-    margin: 20px 0px 0px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    background: #191919;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #42C2FF; /*#9CD9FF*/
-}
-
-.nav li {
-    display: flex;
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
-
-.nav a {
-    display: flex;
-    text-decoration: none;
-    padding: 20px 50px 20px 50px;
-    color: #FFFFFF;
-    opacity: 90%;
-    font-size: 20px;
-}
-
-.nav a:hover {
-    background: #42C2FF;
-    color: black;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
 .table {
     margin-top: 30px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
