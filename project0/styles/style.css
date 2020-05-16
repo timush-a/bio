@@ -91,12 +91,6 @@ body {
         display: none;
     }
 
-    #inivisible-paragpaph {
-        display: inline-block;
-        text-size: 20px;
-        text-align: center;
-    }
-
     .movie-title {
         font-size: 25px;
     }

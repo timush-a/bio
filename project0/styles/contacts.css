@@ -1,0 +1,16 @@
+.container .row .col-md-auto p {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size:25px;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.container .col-md-6 .contacts{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
