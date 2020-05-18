@@ -20,13 +20,13 @@
     display: flex;
     padding-top: 1px;
     padding-bottom: 1px;
+
 }
 
 .nav a {
     display: flex;
-    margin: auto
-    text-decoration: none;
     padding: 15px 25px 15px 25px;
+    text-decoration: none;
     text-align: center;
     color: #FFFFFF;
     opacity: 90%;
