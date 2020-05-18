@@ -10,7 +10,30 @@
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.contact a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.contact a:hover {
+    color: #FFFFFF;
+    padding: 20px;
+    background: #42C2FF;
+    color: black;
+    border-radius: 10px;
+}
+
+#message {
+    text-align: center;
+    font-size: 30px;
+
+    color: #FFFFFF;
+    padding: 20px;
 }
