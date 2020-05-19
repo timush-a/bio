@@ -17,19 +17,29 @@
 
 .contact a {
     padding-left: 20px;
+	margin-left: 5px;
     text-decoration: none;
     color: #FFFFFF;
+	font-weight: bold;
 }
 
+.skype a {
+	padding-left: 30px;
+	
+}
 
 .contact a:hover {
     color: #FFFFFF;
+	font-weight: bold;
     padding: 20px;
-    background: #42C2FF;
+    background: #FFB700;
     color: black;
     border-radius: 10px;
 }
 
+.skype a:hover {
+	padding: 20px 30px 20px 30px;		
+}
 #message {
     text-align: center;
     font-size: 30px;
