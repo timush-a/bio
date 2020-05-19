@@ -1,14 +1,13 @@
 .nav .nav ul .nav li {
     padding: 5px;
-	padding-inline-start: 0px;
 }
 
 .nav {
-    padding: auto;
+	padding-inline-start: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 20px 0px 20px 0px;
+    margin: 20px;
     text-align: center;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
 	background: #191919;
@@ -38,7 +37,7 @@
     background: #42C2FF;
     color: black;
     border-radius: 10px;
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .logo {
