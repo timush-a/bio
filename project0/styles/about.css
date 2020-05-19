@@ -10,13 +10,13 @@ $text-color: #FFFFFF;
 .bio h3 {
 	color:#FFFFFF;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .bio p {
 	padding-left: 40px;
 	padding-right: 40px;
 	color:#FFFFFF;
-	font-size: 18px;
+	font-size: 20px;
 	text-indent: 25px;
 }
