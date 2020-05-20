@@ -1,22 +1,64 @@
-$text-color: #FFFFFF;
+/*$text-color: #FFFFFF;*/
 
 /*# sourceMappingURL=about.css.map */
 
-.bio {
+.bio h3{
+	margin-top: 40px;
 	color:#FFFFFF;
 	font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+	text-align: center;
 }
 
-.bio h3 {
+.bio p{
+	margin-top: 30px;
 	color:#FFFFFF;
 	text-align: center;
-	font-size: 25px;
-}
-
-.bio p {
+	text-indent: 25px;
+	font-size: 20px;
 	padding-left: 40px;
 	padding-right: 40px;
-	color:#FFFFFF;
-	font-size: 20px;
-	text-indent: 25px;
 }
+
+.edu-info h4 {
+	margin-top: 30px;
+	color:#FFFFFF;
+	font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+	text-align: center;
+}
+
+.edu-info p, ol{
+	color:#FFFFFF;
+	font-size: 18px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.edu-info ol{
+	padding-left: 97px;
+	padding-right: 97px;
+}
+
+.accordion-container {
+	margin-top: 45px;
+	margin-bottom: 45px;
+	
+}
+
+.accordion {
+	width: 900px;
+	margin: auto;
+	background: #FFB700;
+	text-decoration: none;
+}
+
+button.btn.btn-link {
+	color: #FFB700;
+}
+.card-header {
+	background-color: #0A0A0A;
+	text-align:center;
+	border-color: #FFB700;
+	
+}
+
+.

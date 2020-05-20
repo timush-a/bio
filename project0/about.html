@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
         <link rel="stylesheet" type="text/css" href="styles/nav.css">
 		<link rel="stylesheet" type="text/css" href="styles/about.css">
@@ -27,13 +28,117 @@
 				What concerns my character and skills, I’m very responsible, and social person with a good sense of humor.
 				In free time, I am playing on PS4 and watching movies.
 			</p>
-			<p style="text-align:center; ">
-				P.S.
-			</p>
-			<p>
-				If you want to be a web developer, in my opinion the best way to start, is the pass the course CS50's on EDX.
-				In this course you can learn:
-			</p>
 		</div>
+		
+		<div class="edu-info">
+			<h4>A little about studying</h4>
+			<p>If you want to be a web developer, in my opinion the best way to start, is the pass the course CS50's on EDX.</p>
+			<p>In this course you will learn:</p>
+			<ol>
+				<li>Python</li>
+				<li>Git</li>
+				<li>CSS</li>
+				<li>HTML</li>
+				<li>JavaScript</li>
+				<li>Flask</li>
+				<li>Django</li>
+				<li>SQL</li>
+			</ol>
+		</div>
+		
+		<div class="accordion-container">
+			<div class="accordion" id="accordion">
+				<div class="card">
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Python
+							</button>
+						</h2>
+					</div>
+					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+						<div class="card-body">
+							<p>
+								Python is an interpreted, high-level, general-purpose programming language.
+								Created by Guido van Rossum and first released in 1991, Python's design philosophy
+								emphasizes code readability with its notable use of significant whitespace. 
+								Its language constructs and object-oriented approach aim to help programmers write clear, 
+								logical code for small and large-scale projects.
+							</p>
+						</div>
+					</div>
+				</div>
+				  
+				<div class="card">
+					<div class="card-header" id="headingTwo">
+						<h2 class="mb-0">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								JavaScript
+							</button>
+						</h2>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+						<div class="card-body">
+							<p>
+							JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript
+							specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.
+							It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, 
+							and first-class functions.
+							</p>
+						</div>
+					</div>
+				</div>
+				  
+				<div class="card">
+					<div class="card-header" id="headingThree">
+						<h2 class="mb-0">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								HTML
+							</button>	
+						</h2>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+						<div class="card-body">
+							<p>
+								Hypertext Markup Language (HTML) is the standard markup language for documents designed 
+								to be displayed in a web browser. It can be assisted by technologies such as Cascading 
+								Style Sheets (CSS) and scripting languages such as JavaScript.
+								Web browsers receive HTML documents from a web server or from local storage and render the 
+								documents into multimedia web pages. HTML describes the structure of a web page semantically 
+								and originally included cues for the appearance of the document.
+							</p>
+						</div>
+					</div>
+				</div>
+				  
+				<div class="card">
+					<div class="card-header" id="headingFour">
+						<h2 class="mb-0">
+							<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+								CSS
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+						<div class="card-body">
+							<p>
+								Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation 
+								of a document written in a markup language like HTML. CSS is a cornerstone technology of the 
+								World Wide Web, alongside HTML and JavaScript.
+								CSS is designed to enable the separation of presentation and content, 
+								including layout, colors, and fonts. This separation can improve content 
+								accessibility, provide more flexibility and control in the specification of presentation 
+								characteristics, enable multiple web pages to share formatting by specifying the relevant 
+								CSS in a separate .css file, and reduce complexity and repetition in the structural content.
+
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>			
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>
