@@ -1,0 +1,73 @@
+$background-color: #FFB700;
+$orange: #FFB700;
+$blue: #42C2FF;
+$white: #FFFFFF;
+$black: #0A0A0A;
+
+%padding {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px
+}
+
+.bio h3{
+    @extend %padding;
+	margin-top: 40px;
+	color:$white;
+	font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+	text-align: center;
+}
+
+.bio p{
+    @extend %padding;
+	margin-top: 30px;
+	color:$white;
+	text-align: center;
+	text-indent: 25px;
+	font-size: 20px;
+}
+
+.edu-info h4 {
+    @extend %padding;
+	margin-top: 30px;
+	color:$white;
+	font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+	text-align: center;
+}
+
+.edu-info p, ol {
+	color:$white;
+	font-size: 18px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.edu-info ol {
+    padding-left: 97px;
+    padding-right: 97px;
+}
+
+.accordion-container {
+	margin-top: 45px;
+	margin-bottom: 45px;
+    .accordion {
+    	width: 900px;
+    	margin: auto;
+    	background: background-color;
+    	text-decoration: none;
+    }
+}
+
+button.btn.btn-link {
+	color: $orange;
+}
+
+button.btn.btn-link:hover {
+	text-decoration: none;
+	color: $blue;
+}
+
+.card-header {
+	background-color: $black;
+	text-align:center;
+}

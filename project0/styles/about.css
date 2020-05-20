@@ -1,64 +1,55 @@
-/*$text-color: #FFFFFF;*/
+.bio h3, .bio p, .edu-info h4 {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 30px; }
 
-/*# sourceMappingURL=about.css.map */
+.bio h3 {
+  margin-top: 40px;
+  color: #FFFFFF;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  text-align: center; }
 
-.bio h3{
-	margin-top: 40px;
-	color:#FFFFFF;
-	font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
-	text-align: center;
-}
-
-.bio p{
-	margin-top: 30px;
-	color:#FFFFFF;
-	text-align: center;
-	text-indent: 25px;
-	font-size: 20px;
-	padding-left: 40px;
-	padding-right: 40px;
-}
+.bio p {
+  margin-top: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  text-indent: 25px;
+  font-size: 20px; }
 
 .edu-info h4 {
-	margin-top: 30px;
-	color:#FFFFFF;
-	font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
-	text-align: center;
-}
+  margin-top: 30px;
+  color: #FFFFFF;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  text-align: center; }
 
-.edu-info p, ol{
-	color:#FFFFFF;
-	font-size: 18px;
-	padding-left: 80px;
-	padding-right: 80px;
-}
+.edu-info p, ol {
+  color: #FFFFFF;
+  font-size: 18px;
+  padding-left: 80px;
+  padding-right: 80px; }
 
-.edu-info ol{
-	padding-left: 97px;
-	padding-right: 97px;
-}
+.edu-info ol {
+  padding-left: 97px;
+  padding-right: 97px; }
 
 .accordion-container {
-	margin-top: 45px;
-	margin-bottom: 45px;
-	
-}
-
-.accordion {
-	width: 900px;
-	margin: auto;
-	background: #FFB700;
-	text-decoration: none;
-}
+  margin-top: 45px;
+  margin-bottom: 45px; }
+  .accordion-container .accordion {
+    width: 900px;
+    margin: auto;
+    background: background-color;
+    text-decoration: none; }
 
 button.btn.btn-link {
-	color: #FFB700;
-}
-.card-header {
-	background-color: #0A0A0A;
-	text-align:center;
-	border-color: #FFB700;
-	
-}
+  color: #FFB700; }
 
-.
+button.btn.btn-link:hover {
+  text-decoration: none;
+  color: #42C2FF; }
+
+.card-header {
+  background-color: #0A0A0A;
+  text-align: center; }
+
+/*# sourceMappingURL=about.css.map */
