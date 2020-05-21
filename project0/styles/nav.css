@@ -1,12 +1,9 @@
-.nav .nav ul .nav li {
-    padding: 5px;
-}
+ul { padding-left: 10px; } 
 
 .nav {
-	padding-inline-start: 0px;
-    display: flex;
+	display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px;
     text-align: center;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
@@ -16,25 +13,36 @@
     border-color: #42C2FF; /*#9CD9FF*/
 }
 
+.nav ul {
+	padding: 0px;
+	padding-inline-start: 0px;
+}
+
 .nav li {
     display: flex;
     padding-top: 2px;
     padding-bottom: 2px;
-
 }
 
 .nav a {
     display: flex;
-    padding: 15px 25px 15px 25px;
-    text-decoration: none;
+	margin: 0px 20px 0px 20px;
+    padding: 20px 27px 20px 27px;
+	text-decoration: none;
     text-align: center;
     color: #FFFFFF;
     opacity: 90%;
-    font-size: 20px;
+	font-size: 23px;
+	font-weight: bold;
 }
 
+#logo-id {
+	padding: 5px;
+}
+
+
 .nav a:hover {
-    background: #42C2FF;
+    background: #FFB700; /* blue #42C2FF; */
     color: black;
     border-radius: 10px;
 	text-decoration: none;
