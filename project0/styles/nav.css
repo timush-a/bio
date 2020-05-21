@@ -55,7 +55,7 @@ ul { padding-left: 10px; }
     height: 65px;
 }
 
-.active {
+.whereami {
 	border-radius: 10px;
 	box-shadow: 0 0 20px #0cb9ed;
 }
