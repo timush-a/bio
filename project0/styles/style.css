@@ -2,6 +2,7 @@ body {
     max-width: 1140px;
     background-color: #0A0A0A;
     margin:0 auto;
+	padding-inline-start: 0px;
 }
 
 .table {
@@ -14,7 +15,7 @@ body {
 .table tr {
     font-size: 16px;
     font-weight: normal;
-    background: #525252; /*#C8EAFF;*/
+    background: #525252;
     border: 2px solid #1C1C1C;
     color: #FFFFFF;
     padding: 8px;
@@ -25,25 +26,25 @@ body {
     text-align: center;
     font-size: 14px;
     font-weight: bold;
-    background: #6b6b6b; /*#e8edff;*/
+    background: #6b6b6b;
     border: 2px solid #1C1C1C;
     color: #FFFFFF;
     padding: 8px;
 }
 
 .table tr:hover td {
-	background: #c9c9c9;
-	color: #3c5bba;
+	background: #17191B;
+	color: #FFB700;
 }
 
 #number {
 	width: auto;
 	height: 20px;
-	background-color: #9CD9FF;
+	background-color: #FFD85D;
 	color: #343434;
 	text-align: center;
 	font-weight: bold;
-	border-color: #9CD9FF;
+	border-color: #FFB012;
 	padding-left:15px;
 }
 
@@ -71,17 +72,33 @@ body {
 }
 
 .summary .movie-title:hover {
-    color: #3c5bba;
+    color: #FFB700;
     cursor: pointer;
 }
 
 .summary .movie-summary:hover {
-    color: #3c5bba;
+    color: #FFB700;
     cursor: pointer;
 }
 
+.home-page {
+	text-align: right;
+	margin: 40px 80px 40px 80px;
+	width: 1000px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: #dadadafa;
+}
+
+.home-page p {
+	font-size: 20px;
+}
+
+.home-page h2 {
+	text-align: center;
+}
+
 @media (max-width: 448px) {
-    .table, .logo, .summary-title {
+    .table, .summary-title {
         display: none;
     }
 
