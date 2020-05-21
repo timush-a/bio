@@ -82,15 +82,15 @@ body {
 }
 
 .home-page {
-	text-align: right;
-	margin: 40px 80px 40px 80px;
-	width: 1000px;
+	margin: 40px 20px 40px 20px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     color: #dadadafa;
 }
 
 .home-page p {
 	font-size: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .home-page h2 {
