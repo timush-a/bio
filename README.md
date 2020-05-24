@@ -1,7 +1,7 @@
                                         ***project0 describe***
 :shipit:
      **Project file structure**
-On this link https://timush-a.github.io/cs50/project0/ you can look at my project0.
+On this link https://timush-a.github.io/project0/ you can look at my project0.
 The pictures/music folder contains photos of music groups from the music.html
 The following files are located in the styles folder:
 1. about.css, about.css.map, about.scss - files that style about.html page; These files were created with SCSS.
